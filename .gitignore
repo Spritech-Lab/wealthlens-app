@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+
+# Dart / Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+.packages
+build/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+app.*.symbols
+app.*.map.json
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.*
+*.xcuserstate
+*.xcuserdatad/
+
+# Android
+/android/app/debug
+/android/app/profile
+/android/app/release
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/key.properties
+**/*.keystore
+**/*.jks
+
+# Secrets / env
+.env
+.env.local
+*.pem

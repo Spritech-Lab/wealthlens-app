@@ -1,0 +1,10 @@
+name: domain_purity_lint
+description: Custom lint rule enforcing domain layer purity (no flutter imports).
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  analyzer: '7.6.0'
+  custom_lint_builder: '0.7.6'
